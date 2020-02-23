@@ -1,0 +1,15 @@
+{
+    "name": "cursophp7/composer",
+    "description": "Aula de php 7",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Filipe Ferreira",
+            "email": "filipregunta@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
