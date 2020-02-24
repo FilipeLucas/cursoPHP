@@ -1,9 +1,9 @@
 <?php
 
-require_once("vendor/autoload.php");
+//require_once("vendor/autoload.php");
 use PHPMailer\PHPMailer\PHPMailer;
 
-use PHPMailer\PHPMailer\SMTP;
+//use PHPMailer\PHPMailer\SMTP;
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer;
