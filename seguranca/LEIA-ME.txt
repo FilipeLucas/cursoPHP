@@ -4,3 +4,24 @@ ISSO É UMA PORTA DE ENTRADA PARA INVASÕES. MAS SE FOR REALMENTE
 NECESSÁRIO UTILIZAR, USE OS COMANDO DE ESCAPE:
 
 escapeshellcmd() ou escapeshellargs();
+=======================================================================
+
+Permissões de pastas:
+0 - Não tem nenhuma permissão;
+1 - Permissão de execução;
+2 - Permisão de gravação;
+3 - Permissão do 1+2;
+4 - Permissão de leitura (diferente do 3, pq eu só posso ler
+o que tem lá dentro mas não posso chamar nada para ser executado);
+5 - Permissão de leitura e execução;
+6 - Permissão de leitura e gravação mas sem execução;
+7 - Permissão total (Deve-se manter atento nesta permissão;
+
+Exemplo de permissão:
+"0775" (Lê-se com de 0 a 7 quais as permissões)
+Primeiro dígito(7) é o criador do diretório ou quem está hospedando
+o apache. Segundo dígito faz parte dos grupos de usuários e o 
+terceiro dígito são convidados.
+7 - Significa que o dono/criador do diretório tem total controle;
+7 - Permissão para os grupos de usuários;
+5 - São os visitantes, quem acessa como convidado.
