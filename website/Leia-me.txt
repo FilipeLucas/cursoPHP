@@ -1,0 +1,2 @@
+O slim framework serve para trabalhar com rotas.
+E ajuda tbm no SO, serviço para ranqueamento de sites de buscas.
